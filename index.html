@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de cadastro de usuario</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/function.js"></script>
 </head>
 <body>
-    <form>
+    <form onsubmit="return salvarDados()">  
         <h2>Faça seu cadastro</h2>
         <!--nome do usuario-->
         <label for="username">Nome de usuário</label>
@@ -16,8 +17,10 @@
         <label for="useremail">E-mail de usuário</label>
         <input type="text" id="useremail" name="useremail" required>
         <!--telefone do usuario-->
-        <label for="usertel">Telefone de usuárioihdwqkfiqofihwf</label>
-        <input type="tel" id="usertel" name="usertel" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" required>
+        <label for="usertel">Telefone de usuário</label>
+        <input type="tel" id="usertel" name="usertel" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" placeholder="00-00000-0000" required>
+        <!--botao de enviar-->
+        <button type="submit">Enviar</button>
     </form>
     
 </body>
