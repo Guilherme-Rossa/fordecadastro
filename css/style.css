@@ -1,0 +1,17 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Garante que o contêiner centralizado ocupe toda a altura da tela */
+    margin: 0;
+}
+
+form {
+    text-align: center; /* Alinha o texto centralmente dentro do formulário */
+}
+
+input {
+    width: 200px; /* Ou qualquer largura desejada */
+}
+
